@@ -1,0 +1,281 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.templates-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.template-wrapper {
+  position: relative;
+}
+
+.template1 {
+  text-align: center;
+  color: white;
+}
+
+.template1 header,
+footer {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  background-color: red;
+  margin: 1px;
+  border: 1px black solid;
+}
+
+.section1 section {
+  margin: 0px;
+  border: 1px black solid;
+}
+
+.template2 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.section2 {
+  text-align: center;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.s21,
+.s23 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 15%;
+  text-align: center;
+}
+
+.s22 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 70%;
+  text-align: center;
+}
+
+.template3 {
+  text-align: center;
+  color: white;
+}
+
+.template3 header,
+footer {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  text-align: center;
+  background-color: red;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.section3 section {
+  margin: 0px;
+  border: 1px black solid;
+}
+
+.template4 {
+  text-align: center;
+  color: white;
+}
+
+.template4 header,
+footer {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: red;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.section4 section {
+  margin: 0px;
+  border: 1px black solid;
+}
+
+.template5 {
+  text-align: center;
+  color: white;
+}
+
+.template5 header,
+footer {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.section5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  background-color: red;
+  margin: 1px;
+  border: 1px black solid;
+}
+
+.section5 section {
+  margin: 0px;
+  border: 1px black solid;
+}
+
+.template6 {
+  text-align: center;
+  color: white;
+}
+
+.template6 header,
+footer {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.section6 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  text-align: center;
+  background-color: red;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.section6 section {
+  margin: 0px;
+  border: 1px black solid;
+}
+
+.template7 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.section7 {
+  text-align: center;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.s71 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 25%;
+  text-align: center;
+}
+
+.s72 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 75%;
+  text-align: center;
+}
+
+.template8 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.section8 {
+  text-align: center;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.s81 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 50%;
+  text-align: center;
+}
+
+.s82 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 50%;
+  text-align: center;
+}
+
+.template9 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.section9 {
+  text-align: center;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.s91 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 75%;
+  text-align: center;
+}
+
+.s92 {
+  border: 1px solid black;
+  color: white;
+  height: 68px;
+  width: 25%;
+  text-align: center;
+}
+
+.section10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  height: 90px;
+}
+
+.section10 section {
+  text-align: center;
+  color: white;
+  border: 1px red solid;
+}
